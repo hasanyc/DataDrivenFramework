@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+
+
+
+
+	<test name="API GET Test">
+		<classes>
+			<class name="innRoad.QAApiTesting.SuiteA.GetTest"></class>
+		</classes>
+	</test>
+
+	<test name="API PUT Test">
+		<classes>
+			<class name="innRoad.QAApiTesting.SuiteA.PutTest"></class>
+		</classes>
+	</test>
+
+
+
+</suite>
+

@@ -1,0 +1,13 @@
+<suite name="My Project">
+
+	<!-- <listeners>
+		<listener class-name="innRoad.QAApiTesting.Util.CustomListener" />
+	</listeners> -->
+	
+	<suite-files>
+		<suite-file path="./Suite_A.xml" />
+		<!-- suite-file path="./Suite_C.xml" / -->
+	</suite-files>
+	
+	
+</suite>
