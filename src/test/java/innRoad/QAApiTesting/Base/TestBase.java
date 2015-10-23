@@ -12,7 +12,7 @@ public class TestBase {
 	//public static Properties prop;
 	public static Logger APPLICATION_LOG	= Logger.getLogger("devpinoyLogger");
 
-	
+	//
 //	public static void init(){
 //		if(prop == null){
 //			String path=System.getProperty("user.dir")+"\\src\\test\\resources\\project.properties";
