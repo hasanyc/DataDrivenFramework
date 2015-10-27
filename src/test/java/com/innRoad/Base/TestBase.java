@@ -10,6 +10,8 @@ import com.innRoad.Util.Xls_Reader;
 public class TestBase {
 
 	//public static Properties prop;
+	// 
+	
 	public static Logger APPLICATION_LOG	= Logger.getLogger("devpinoyLogger");
 
 	public static void validateRunmodes (String testName, String suiteName, String dataRunmode){
