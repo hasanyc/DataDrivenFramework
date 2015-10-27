@@ -1,11 +1,9 @@
-<suite name="My Project">
+<suite name="API Data-driven Framework">
 
-	<!-- <listeners>
-		<listener class-name="innRoad.QAApiTesting.Util.CustomListener" />
-	</listeners> -->
+
 	
 	<suite-files>
-		<suite-file path="./Suite_A.xml" />
+		<suite-file path="./API_Test.xml" />
 		<!-- suite-file path="./Suite_C.xml" / -->
 	</suite-files>
 	

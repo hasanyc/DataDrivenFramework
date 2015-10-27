@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="innRoad.QAApiTesting.SuiteA.PutTest">
+      <class name="innRoad.QAApiTesting.SuiteA.ApiTest1">
         <methods>
-          <include name="putTest" invocation-numbers="0"/>
+          <include name="test1" invocation-numbers="3"/>
         </methods>
-      </class> <!-- innRoad.QAApiTesting.SuiteA.PutTest -->
+      </class> <!-- innRoad.QAApiTesting.SuiteA.ApiTest1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

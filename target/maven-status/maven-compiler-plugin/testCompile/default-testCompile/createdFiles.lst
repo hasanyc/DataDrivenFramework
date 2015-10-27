@@ -1,7 +1,8 @@
-innRoadApi\QAAPitTesting\util\Xls_Reader.class
-roughwork\ReadingData.class
-innRoadApi\QAApiTesting\SuiteA\Test2.class
-innRoadApi\QAApiTesting\Base\TestBase.class
-innRoadApi\QAAPitTesting\util\Constants.class
-innRoadApi\QAApiTesting\SuiteA\Test1.class
-innRoadApi\QAAPitTesting\util\Utility.class
+com\innRoad\Util\TestDataProvider.class
+com\innRoad\Util\Constants.class
+com\innRoad\APITest\Test1.class
+com\innRoad\APITest\ApiTest1.class
+com\innRoad\Base\TestBase.class
+com\innRoad\Util\CustomListener.class
+com\innRoad\Util\Utility.class
+com\innRoad\Util\Xls_Reader.class

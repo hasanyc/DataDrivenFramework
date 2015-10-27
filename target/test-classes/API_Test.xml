@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+
+	<test name="API Test">
+		<classes>
+			<class name="com.innRoad.APITest.ApiTest1"></class>
+		</classes>
+	</test>
+
+
+</suite>
+
