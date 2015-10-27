@@ -4,7 +4,6 @@ package com.innRoad.Util;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.Calendar;
 
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
@@ -24,7 +23,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
 public class Xls_Reader {
-	public static String filename = System.getProperty("user.dir")+"\\src\\config\\testcases\\TestData.xlsx";
+	public static String filename ;
 	public  String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
@@ -532,18 +531,5 @@ public class Xls_Reader {
 		
 	}
 		
-	// to run this on stand alone
-	public static void main(String arg[]) throws IOException{
-		
-		//System.out.println(filename);
-		Xls_Reader datatable = null;
-		
-
-			 datatable = new Xls_Reader("H:\\Student_Selenium_Workspaces\\Framework_Weekend\\src\\Framework_XL_Files\\Controller.xlsx");
-				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
-					System.out.println(datatable.getCellData("TC5", col, 1));
-				}
-	}
-	
 	
 }
