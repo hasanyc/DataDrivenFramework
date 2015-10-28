@@ -2,53 +2,53 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="API Data-driven Framework" duration-ms="0" started-at="2015-10-27T15:59:36Z" finished-at="2015-10-27T15:59:36Z">
+  <suite name="API Data-driven Framework" duration-ms="0" started-at="2015-10-27T23:20:43Z" finished-at="2015-10-27T23:20:43Z">
     <groups>
     </groups>
   </suite> <!-- API Data-driven Framework -->
-  <suite name="API Test Suite" duration-ms="456" started-at="2015-10-27T15:59:36Z" finished-at="2015-10-27T15:59:36Z">
+  <suite name="API Test Suite" duration-ms="495" started-at="2015-10-27T23:20:42Z" finished-at="2015-10-27T23:20:43Z">
     <groups>
     </groups>
-    <test name="API Test" duration-ms="456" started-at="2015-10-27T15:59:36Z" finished-at="2015-10-27T15:59:36Z">
+    <test name="API Test" duration-ms="495" started-at="2015-10-27T23:20:42Z" finished-at="2015-10-27T23:20:43Z">
       <class name="com.innRoad.APITest.ApiTest1">
-        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@29ee9faa]" name="test1" duration-ms="39" started-at="2015-10-27T11:59:36Z" data-provider="APIDataProvider" finished-at="2015-10-27T11:59:36Z">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@cc285f4]" name="test1" duration-ms="44" started-at="2015-10-27T19:20:43Z" data-provider="APIDataProvider" finished-at="2015-10-27T19:20:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{JSONSchema=, HTTPresp=200, TestID=API-1, BaseURL=http://localhost:, Runmode=Y, Method=GET, Endpoint=/landlords, Port=8080}]]>
+                <![CDATA[{TestID=1.0, BaseURL=http://localhost:, Runmode=Y, ResponseContentType=JSON, Method=GET, Endpoint=/landlords, Port=8080}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@29ee9faa]" name="test1" duration-ms="26" started-at="2015-10-27T11:59:36Z" data-provider="APIDataProvider" finished-at="2015-10-27T11:59:36Z">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@cc285f4]" name="test1" duration-ms="30" started-at="2015-10-27T19:20:43Z" data-provider="APIDataProvider" finished-at="2015-10-27T19:20:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{JSONSchema=, HTTPresp=200, TestID=API-2, BaseURL=http://localhost:, Runmode=Y, Method=GET, Endpoint=/hasan, Port=8080}]]>
+                <![CDATA[{TestID=2.0, BaseURL=http://localhost:, Runmode=Y, ResponseContentType=JSON, Method=POST, Endpoint=/hasan, Port=8080}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@29ee9faa]" name="test1" duration-ms="27" started-at="2015-10-27T11:59:36Z" data-provider="APIDataProvider" finished-at="2015-10-27T11:59:36Z">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@cc285f4]" name="test1" duration-ms="30" started-at="2015-10-27T19:20:43Z" data-provider="APIDataProvider" finished-at="2015-10-27T19:20:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{JSONSchema=, HTTPresp=301, TestID=API-3, BaseURL=http://localhost:, Runmode=Y, Method=PUT, Endpoint=/budget, Port=8080}]]>
+                <![CDATA[{TestID=3.0, BaseURL=http://localhost:, Runmode=Y, ResponseContentType=XML, Method=PUT, Endpoint=/budget, Port=8080}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@29ee9faa]" name="test1" duration-ms="22" started-at="2015-10-27T11:59:36Z" data-provider="APIDataProvider" finished-at="2015-10-27T11:59:36Z">
+        <test-method status="PASS" signature="test1(java.util.Hashtable)[pri:0, instance:com.innRoad.APITest.ApiTest1@cc285f4]" name="test1" duration-ms="34" started-at="2015-10-27T19:20:43Z" data-provider="APIDataProvider" finished-at="2015-10-27T19:20:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{JSONSchema=, HTTPresp=301, TestID=API-4, BaseURL=http://localhost:, Runmode=Y, Method=PUT, Endpoint=/payments, Port=8080}]]>
+                <![CDATA[{TestID=4.0, BaseURL=http://localhost:, Runmode=Y, ResponseContentType=JSON, Method=DELETE, Endpoint=/payments, Port=8080}]]>
               </value>
             </param>
           </params>

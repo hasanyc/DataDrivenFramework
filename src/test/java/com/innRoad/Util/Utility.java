@@ -59,7 +59,7 @@ public class Utility {
 			}
 			System.out.println("Total rows of data are - "+testRows);
 			
-			// cols of data
+			// Columns of data
 			int testCols=0;
 			while(!xls.getCellData(Constants.DATA_SHEET,testCols,colStartRowNum).equals("")){
 				testCols++;
